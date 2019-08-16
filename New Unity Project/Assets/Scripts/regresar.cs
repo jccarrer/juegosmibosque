@@ -8,9 +8,15 @@ using UnityEngine.SceneManagement;
 public class regresar : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void volver()
+    //public void volver()
+    //{
+    //    SceneManager.LoadScene("menuJuegos");
+    //}
+    
+       public void volverMenu()
     {
-        SceneManager.LoadScene("menuJuegos");
+        //Debug.Log("ddddd");
+        SceneManager.LoadScene("menuJuego1");
     }
 
     public void jugar()

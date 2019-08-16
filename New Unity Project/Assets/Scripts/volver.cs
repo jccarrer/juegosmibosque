@@ -11,9 +11,15 @@ public class volver : MonoBehaviour
 
     }
 
-    public void cambiar()
+    //public void cambiar()
+    //{
+        //Debug.Log("ddddd");
+        //SceneManager.LoadScene("introBosque");
+    //}
+    
+       public void volverMenu()
     {
         //Debug.Log("ddddd");
-        SceneManager.LoadScene("introBosque");
+        SceneManager.LoadScene("menuJuego1");
     }
 }

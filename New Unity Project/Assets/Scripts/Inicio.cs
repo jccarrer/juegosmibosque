@@ -41,6 +41,11 @@ public class Inicio : MonoBehaviour {
         //Debug.Log("ddddd");
         SceneManager.LoadScene(escenaPajaros);
     }
+    
+        public void Juego3()
+    {
+        SceneManager.LoadScene("juegoScene");
+    }
 
     public void salir()
     {
