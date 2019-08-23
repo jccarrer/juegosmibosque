@@ -12,7 +12,8 @@ public class iniciar : MonoBehaviour {
 
     public void Juego1()
     {
-        SceneManager.LoadScene("menuJuego1");
+        //SceneManager.LoadScene("menuJuego1"); juegoSiluetas
+        SceneManager.LoadScene("juegoSiluetas");
     }
 
     public void Juego2()

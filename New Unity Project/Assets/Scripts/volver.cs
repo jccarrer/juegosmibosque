@@ -20,6 +20,8 @@ public class volver : MonoBehaviour
        public void volverMenu()
     {
         //Debug.Log("ddddd");
-        SceneManager.LoadScene("menuJuego1");
+        //SceneManager.LoadScene("menuJuego1");
+        SceneManager.LoadScene("menuJuegos");
+
     }
 }

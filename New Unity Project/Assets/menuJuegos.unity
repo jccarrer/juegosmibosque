@@ -666,6 +666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 421273737}
   - component: {fileID: 421273736}
+  - component: {fileID: 421273739}
   - component: {fileID: 421273735}
   - component: {fileID: 421273738}
   - component: {fileID: 421273734}
@@ -696,7 +697,7 @@ Behaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421273733}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &421273736
 Camera:
   m_ObjectHideFlags: 0
@@ -768,7 +769,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -850,6 +851,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!81 &421273739
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421273733}
+  m_Enabled: 1
 --- !u!1 &551841387
 GameObject:
   m_ObjectHideFlags: 0

@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/introBosque.unity
     guid: b0a41f3f163a3cc48be3019bd6d516fd
+  - enabled: 1
+    path: Assets/Scenes/juegoSiluetas.unity
+    guid: f5ed10f2e2628a14f99bc3bf51e83771
   m_configObjects: {}

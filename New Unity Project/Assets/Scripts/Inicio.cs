@@ -27,7 +27,7 @@ public class Inicio : MonoBehaviour {
     public void volverMenu()
     {
         //Debug.Log("ddddd");
-        SceneManager.LoadScene("menuJuego1");
+        SceneManager.LoadScene("menuJuegos");
     }
 
     public void cambiarPajaros(int escenaMamiferos)
